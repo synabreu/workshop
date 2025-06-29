@@ -37,7 +37,11 @@ Attendees will learn how to do the following:
 
 # Workshop Instructions
 
-## 0. Start the Lab
+## 0. Login and Start the Lab
+
+You will be provided a username and password to login to Vocareum.
+
+![](img/voc-login.png)
 
 Click here:  <LINK WILL BE PROVIDED>
 
@@ -99,7 +103,7 @@ _Note:  This is not a fatal error ^^ above ^^.  Just re-run the command again un
 
 ## 5. Start the Workshop!
 
-Navigate to `00_quickstart/` in SageMaker Studio and start the workshop!
+Navigate to `workshop/00_quickstart/` in SageMaker Studio and start the workshop!
 
 _You may need to refresh your browser if you don't see the new `workshop/` directory._
 

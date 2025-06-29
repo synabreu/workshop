@@ -53,17 +53,13 @@ That shows the usual order of this process, however, if you are operating this a
 
 As mentioned above, the first step is to deploy a CloudFormation template that will perform much of the initial setup work for you. In another browser window or tab, login to your AWS account. Once you have done that, open the link below in a new tab to start the process of deploying the items you need via CloudFormation.
 
-[![Launch Stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=PersonalizePOC&templateURL=https://chriskingpartnershare.s3.amazonaws.com/PersonalizePOC.yaml)
+Navigate to the AWS CloudFormation console and create a stack by uploading this [CloudFormation template file](https://github.com/data-science-on-aws/data-science-on-aws/blob/1b17cb7eaa587e966bf3f64b1aabe853d6c5a64c/02_usecases/personalize_recommendations/PersonalizePOC.yaml).
 
 Follow along with the screenshots below if you have any questions about deploying the stack.
 
-### Cloud Formation Wizard
+### CloudFormation Wizard
 
-Start by clicking `Next` at the bottom like this:
-
-![StackWizard](static/imgs/img1.png)
-
-On this page you have a few tasks:
+Use the CloudFormation UI wizard and perform these tasks:
 
 1. Change the Stack name to something relevant like `PersonalizePOC`
 1. Change the Notebook Name (Optional)
